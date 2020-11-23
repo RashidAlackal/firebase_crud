@@ -5,9 +5,43 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #202224;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.j-cover{
+  background-color: #202224;
+  color: #777777;
+}
+.thead-light{
+  border: 1px solid #777777!important;
+
+}
+.thead-light tr th{
+  background-color: #202224!important;
+  color: #777777!important;
+}
+.table{
+  color: #777777;
+  border: 1px solid #777777!important;
+}
+.form-control{
+  background-color: #202224;
+  border-color: #777777;
+  color: #777777;
+}
+
+.input-group-text {
+  background-color: #777777;
+  border: 1px solid #777777;
+}
+.input-group-text {
+  color: #202224;
+}
+.form-control:focus {
+  background-color: #202224;
 }
